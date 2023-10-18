@@ -1,0 +1,18 @@
+.textotopo{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    justify-content: center;
+    height: 35px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+}
+
+img{
+    width: 25px;
+    margin-right: 16px;
+}
