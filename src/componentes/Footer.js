@@ -28,8 +28,10 @@ function Footer(){
                     <h1>INSCREVA-SE</h1>
                     <p>E RECEBA NOVIDADES E PROMOÇÕES</p>
                 </div>
-                <input className={Style.caixaemail} type="email" name="email" placeholder='Seu e-mail'/>
-                <input className={Style.caixabotao} type='bottom' id='botao' placeholder='ASSINAR NEWSLETTER'/>
+                <form>
+                    <input className={Style.caixaemail} type="email" name="email" placeholder='Seu e-mail' required/>
+                    <button className={Style.caixabotao} type='submit'>ASSINAR NEWSLETTER</button>
+                </form>
             </div>
             <div className={Style.abaixoinscrevase}>
                 <div className={Style.vegano}>

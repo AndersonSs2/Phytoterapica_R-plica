@@ -1,156 +1,142 @@
-import Style from '../CSS/ComponenteProps.module.css'
-import rosamosqueta30 from '../imagens/vegetais/_leo_vegetal_de_rosa_mosqueta.jpg'
-import sementeuva from '../imagens/vegetais/oleo-vegetal-semente-de-uva.jpg'
-import camomila from '../imagens/vegetais/extrato_oleoso_de_camomila_alem.jpg'
-import jojoba from '../imagens/vegetais/_leo_vegetal_de_jojoba.jpg'
-import abacate from '../imagens/vegetais/Mockup_Cartucho_OV_Abacate_cinz.jpg'
-import Girassol from '../imagens/vegetais/Mockup-OV-girassol-com-caixa.jpg'
-import maracuja from '../imagens/vegetais/oleo-vegetal-maracuja.jpg'
-import rosamosquetaroll from '../imagens/vegetais/_leo_vegetal_de_rosa_mosqueta_roll_on.jpg'
-import sementeuva500 from '../imagens/vegetais/semente-uva-2.jpg'
-import rosamosqueta10 from '../imagens/vegetais/_leo_vegetal_de_rosa_mosqueta_10ml.jpg'
-import copaiba50 from '../imagens/vegetais/Mockup_Caixa_OV_Copaiba.jpg'
-import copaiba20 from '../imagens/vegetais/b_lsamo_de_copa_ba_20ml_-_phytoterapica (1).jpg'
+import Style from '../CSS/AcessoriosProps.module.css'
+import materiallona from '../imagens/acessorios/necessarie_lona_crua_1000x1000px_2.jpg'
+import sacolaroxa from '../imagens/acessorios/sacola_roxa.png'
+import tricoline from '../imagens/acessorios/necessaire-porta-oleos-pequena-costela-de-adao-phytoterapica-01.jpg'
+import sacolaamarela from '../imagens/acessorios/sacola-phytoterapica-g.jpg'
+import madeiraclara20 from '../imagens/acessorios/madeira_clara_20.jpg'
+import madeiraescura20 from '../imagens/acessorios/caixa_de_madeira_escura.jpg'
+import valvula from '../imagens/acessorios/valvula-pump-embalagem-500ml-phytoterapica.jpg'
+import presenteavel from '../imagens/acessorios/Mockup_Caixa_Presente_Porta_OleosEssenciais_aberto_comOleos_cinza.jpg'
+import madeiraclara35 from '../imagens/acessorios/caixa_de_madeira_clara.jpg'
+import madeiraescura35 from '../imagens/acessorios/caixa_de_madeira_escura_-_35_divis_rias_com_al_a_-_phytoterapica_fechada_.jpg'
+import sacolavazada from '../imagens/acessorios/sacola-presente-alca-vazada-phytoterapica.jpg'
 
 function ComponenteProps(){
     return(
         <main className={Style.maincaixas}>
             <section className={Style.sectcaixas}>
-                <div className={Style.caixas}>
+                <div className={Style.caixas1}>
                     <nav>
-                        <img className={Style.imgcaixa} src={rosamosqueta10}/>
+                        <img className={Style.imgcaixa} src={materiallona}/>
                         <aside className={Style.caixadescricao}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Rosa Mosqueta - 10ml</p>
+                            <p className={Style.legendaimg}>Nécessaire Cor Cru - Material Lona</p>
                             <div className={Style.caixalinhadesconto}>
                             </div>
-                            <p className={Style.preco}>R$ 48,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 16,00 sem juros)</p>
+                            <p className={Style.preco}>R$ 94,40</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 31,46 sem juros)</p>
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas2}>
                     <nav>
-                        <img className={Style.imgcaixa} src={sementeuva}/>
+                        <img className={Style.imgcaixa} src={sacolaroxa}/>
                         <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Semente de Uva - 50ml</p>
+                            <p className={Style.legendaimg}>Sacola Roxa Phytoterápica</p>
                             <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 39,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 13,00 sem juros)</p>
+                            <p className={Style.preco}>R$ 2,70</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 0,90 sem juros)</p>
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas3}>
                     <nav>
-                        <img className={Style.imgcaixa} src={camomila}/>
+                        <img className={Style.imgcaixa} src={tricoline}/>
                         <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Extrato Oleoso de Camomila Alemã - 30ml</p>
-                            <div className={Style.caixalinhadesconto}>
-                            <p className={Style.linhadesconto}>R$ 36,00</p>
-                            </div>
-                            <p className={Style.preco}>R$ 17,10</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 5,70 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={jojoba}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Jojoba - 30ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 72,20</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 24,06 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={abacate}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Abacate - 50ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 49,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 16,33 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={Girassol}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Girassol - 50ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 31,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 10,33 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={maracuja}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Maracujá - 50ml</p>
-                            <div className={Style.caixalinhadesconto}>
-                                <p className={Style.linhadesconto}>R$ 60,00</p>
-                            </div>
-                            <p className={Style.preco}>R$ 44,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 14,66 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={rosamosquetaroll}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Rosa Mosqueta Roll-on - 10ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 58,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 19,33 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={sementeuva500}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Semenre de Uva - 500ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 97,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 17,33 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={rosamosqueta30}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal de Rosa Mosqueta - 30ml</p>
-                            <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 100,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 33,33 sem juros)</p>
-                        </aside>
-                    </nav>
-                </div>
-                <div className={Style.caixas}>
-                    <nav>
-                        <img className={Style.imgcaixa} src={copaiba20}/>
-                        <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal (Bálsamo) de Copaíba - 20ml</p>
+                            <p className={Style.legendaimg}>Nécessaire Estampada Costela de Adão - Material Tricoline</p>
                             <div className={Style.caixalinhadesconto}>
                             </div>
-                            <p className={Style.preco}>R$ 41,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 13,66 sem juros)</p>
+                            <p className={Style.preco}>R$ 67,90</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 22,63 sem juros)</p>
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas4}>
                     <nav>
-                        <img className={Style.imgcaixa} src={copaiba50}/>
+                        <img className={Style.imgcaixa} src={sacolaamarela}/>
                         <aside className={Style.caixapreco}>
-                            <p className={Style.legendaimg}>Óleo Vegetal (Bálsamo) de Copaíba - 50ml</p>
+                            <p className={Style.legendaimg}>Sacola Amarela Phytoterápica</p>
                             <div className={Style.caixalinhadesconto}></div>
-                            <p className={Style.preco}>R$ 70,00</p>
-                            <p className={Style.textoparcela}>(ou em até 3x de R$ 23,33 sem juros)</p>
+                            <p className={Style.preco}>R$ 6,50</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 2,16 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas5}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={madeiraclara20}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Caixa de Madeira Clara - 20 Divisórias(Sem Alça)</p>
+                            <div className={Style.caixalinhadesconto}></div>
+                            <p className={Style.preco}>R$ 195,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 65,00 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas6}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={madeiraescura20}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Caixa de Madeira Escura - 20 Divisórias(Sem Alça)</p>
+                            <div className={Style.caixalinhadesconto}></div>
+                            <p className={Style.preco}>R$ 195,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 65,00 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas7}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={valvula}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Válvula Para Frasco de 500ml</p>
+                            <div className={Style.caixalinhadesconto}>
+                            </div>
+                            <p className={Style.preco}>R$ 6,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 2,00 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas8}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={presenteavel}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Caixa Presenteável Porta-Óleos Essenciais</p>
+                            <div className={Style.caixalinhadesconto}></div>
+                            <p className={Style.preco}>R$ 18,30</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 6,10 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas9}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={madeiraclara35}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Caixa de Madeira Clara - 35 Divisórias(Com Alça)</p>
+                            <div className={Style.caixalinhadesconto}></div>
+                            <p className={Style.preco}>R$ 231,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 77,00 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas10}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={madeiraescura35}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Caixa de Madeira Escura - 35 Dividórias(Com Alça)</p>
+                            <div className={Style.caixalinhadesconto}></div>
+                            <p className={Style.preco}>R$ 231,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 77,00 sem juros)</p>
+                        </aside>
+                    </nav>
+                </div>
+                <div className={Style.caixas11}>
+                    <nav>
+                        <img className={Style.imgcaixa} src={sacolavazada}/>
+                        <aside className={Style.caixapreco}>
+                            <p className={Style.legendaimg}>Sacola Com Alça Vazada Phytoterápica</p>
+                            <div className={Style.caixalinhadesconto}>
+                            </div>
+                            <p className={Style.preco}>R$ 9,00</p>
+                            <p className={Style.textoparcela}>(ou em até 3x de R$ 3,00 sem juros)</p>
                         </aside>
                     </nav>
                 </div>

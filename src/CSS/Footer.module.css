@@ -19,22 +19,20 @@
 }
 
 .caixabotao{
+    margin-left: 20px;
     height: 45px;
     border-radius: 30px;
     width: 270px;
     text-align: center;
     background-color: #98B020;
     border: none;
+    color: white;
 }
 
 .caixabotao:hover{
     background-color: #adc829;
     cursor: pointer;
     transition: 1s;
-}
-
-.caixabotao::placeholder{
-    color: white;
 }
 
 .caixaemail::placeholder{

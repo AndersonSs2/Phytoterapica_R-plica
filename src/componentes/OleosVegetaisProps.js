@@ -1,4 +1,4 @@
-import Style from '../CSS/ComponenteProps.module.css'
+import Style from '../CSS/OleosVegetaisProps.module.css'
 import rosamosqueta30 from '../imagens/vegetais/_leo_vegetal_de_rosa_mosqueta.jpg'
 import sementeuva from '../imagens/vegetais/oleo-vegetal-semente-de-uva.jpg'
 import camomila from '../imagens/vegetais/extrato_oleoso_de_camomila_alem.jpg'
@@ -16,7 +16,7 @@ function ComponenteProps(){
     return(
         <main className={Style.maincaixas}>
             <section className={Style.sectcaixas}>
-                <div className={Style.caixas}>
+                <div className={Style.caixas1}>
                     <nav>
                         <img className={Style.imgcaixa} src={rosamosqueta10}/>
                         <aside className={Style.caixadescricao}>
@@ -28,7 +28,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas2}>
                     <nav>
                         <img className={Style.imgcaixa} src={sementeuva}/>
                         <aside className={Style.caixapreco}>
@@ -39,7 +39,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas3}>
                     <nav>
                         <img className={Style.imgcaixa} src={camomila}/>
                         <aside className={Style.caixapreco}>
@@ -52,7 +52,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas4}>
                     <nav>
                         <img className={Style.imgcaixa} src={jojoba}/>
                         <aside className={Style.caixapreco}>
@@ -63,7 +63,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas5}>
                     <nav>
                         <img className={Style.imgcaixa} src={abacate}/>
                         <aside className={Style.caixapreco}>
@@ -74,7 +74,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas6}>
                     <nav>
                         <img className={Style.imgcaixa} src={Girassol}/>
                         <aside className={Style.caixapreco}>
@@ -85,7 +85,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas7}>
                     <nav>
                         <img className={Style.imgcaixa} src={maracuja}/>
                         <aside className={Style.caixapreco}>
@@ -98,7 +98,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas8}>
                     <nav>
                         <img className={Style.imgcaixa} src={rosamosquetaroll}/>
                         <aside className={Style.caixapreco}>
@@ -109,7 +109,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas9}>
                     <nav>
                         <img className={Style.imgcaixa} src={sementeuva500}/>
                         <aside className={Style.caixapreco}>
@@ -120,7 +120,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas10}>
                     <nav>
                         <img className={Style.imgcaixa} src={rosamosqueta30}/>
                         <aside className={Style.caixapreco}>
@@ -131,7 +131,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas11}>
                     <nav>
                         <img className={Style.imgcaixa} src={copaiba20}/>
                         <aside className={Style.caixapreco}>
@@ -143,7 +143,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas12}>
                     <nav>
                         <img className={Style.imgcaixa} src={copaiba50}/>
                         <aside className={Style.caixapreco}>

@@ -1,4 +1,4 @@
-import Style from '../CSS/ComponenteProps.module.css'
+import Style from '../CSS/CosmeticosNaturaisProps.module.css'
 import sanguedragao from '../imagens/naturais/sangue_de_drag_o_conta_gotas_phytoter_pica.jpg'
 import argilabranca from '../imagens/naturais/argila_branca_200g_-_phytoterapica.jpg'
 import argilaverde from '../imagens/naturais/argila-verde-200g-phytoterapica_2.jpg'
@@ -16,7 +16,7 @@ function ComponenteProps(){
     return(
         <main className={Style.maincaixas}>
             <section className={Style.sectcaixas}>
-                <div className={Style.caixas}>
+                <div className={Style.caixas1}>
                     <nav>
                         <img className={Style.imgcaixa} src={sanguedragao}/>
                         <aside className={Style.caixadescricao}>
@@ -28,7 +28,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas2}>
                     <nav>
                         <img className={Style.imgcaixa} src={argilabranca}/>
                         <aside className={Style.caixapreco}>
@@ -39,7 +39,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas3}>
                     <nav>
                         <img className={Style.imgcaixa} src={argilaverde}/>
                         <aside className={Style.caixapreco}>
@@ -50,7 +50,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas4}>
                     <nav>
                         <img className={Style.imgcaixa} src={argilaamarela}/>
                         <aside className={Style.caixapreco}>
@@ -61,7 +61,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas5}>
                     <nav>
                         <img className={Style.imgcaixa} src={floralmelaleuca}/>
                         <aside className={Style.caixapreco}>
@@ -72,7 +72,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas6}>
                     <nav>
                         <img className={Style.imgcaixa} src={argilavermelha}/>
                         <aside className={Style.caixapreco}>
@@ -83,7 +83,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas7}>
                     <nav>
                         <img className={Style.imgcaixa} src={florallemongrass}/>
                         <aside className={Style.caixapreco}>
@@ -96,7 +96,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas8}>
                     <nav>
                         <img className={Style.imgcaixa} src={baseneutra}/>
                         <aside className={Style.caixapreco}>
@@ -107,7 +107,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas9}>
                     <nav>
                         <img className={Style.imgcaixa} src={argilapreta}/>
                         <aside className={Style.caixapreco}>
@@ -118,7 +118,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas10}>
                     <nav>
                         <img className={Style.imgcaixa} src={aloevera}/>
                         <aside className={Style.caixapreco}>
@@ -129,7 +129,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas11}>
                     <nav>
                         <img className={Style.imgcaixa} src={spraytrue}/>
                         <aside className={Style.caixapreco}>
@@ -141,7 +141,7 @@ function ComponenteProps(){
                         </aside>
                     </nav>
                 </div>
-                <div className={Style.caixas}>
+                <div className={Style.caixas12}>
                     <nav>
                         <img className={Style.imgcaixa} src={sprayhill}/>
                         <aside className={Style.caixapreco}>
