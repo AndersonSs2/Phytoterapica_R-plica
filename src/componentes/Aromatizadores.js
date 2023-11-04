@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import Style from '../CSS/Aromatizadores.module.css'
 import AromatizadoresProps from './AromatizadoresProps'
 
 function Aromatizadores(){
+    useEffect(() => {
+        document.title = "Aromatizadores - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function Aromatizadores(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Aromatizadores</li>
                 </ul>
             </nav>
             <AromatizadoresProps/>

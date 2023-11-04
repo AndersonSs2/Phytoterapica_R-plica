@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import Style from '../CSS/CosmeticosNaturais.module.css'
 import CosmeticosNaturaisProps from './CosmeticosNaturaisProps'
 
 function CosmeticosNaturais(){
+    useEffect(() => {
+        document.title = "Cosméticos Naturais - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function CosmeticosNaturais(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Cosméticos Naturais</li>
                 </ul>
             </nav>
             <CosmeticosNaturaisProps/>

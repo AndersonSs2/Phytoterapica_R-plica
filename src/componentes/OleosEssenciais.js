@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import OleosEssenciaisProps from './OleosEssenciaisProps'
 import Style from '../CSS/OleosEssenciais.module.css'
 
 function OleosEssenciais(){
+    useEffect(() => {
+        document.title = "Óleos Essenciais - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>

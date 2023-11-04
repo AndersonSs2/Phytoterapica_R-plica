@@ -5,7 +5,7 @@ function ComponenteTextoProps(){
     return(
         <div className={Style.textotopo}>
             <img src={caminhao}/>
-            <p>Com mais R$ 200,00 o frete é por nossa conta!</p>
+            <p className={Style.textop}>Com mais R$ 200,00 o frete é por nossa conta!</p>
         </div>
     )
 }

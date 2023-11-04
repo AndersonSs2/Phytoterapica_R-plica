@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import Style from '../CSS/OleosVegetais.module.css'
 import OleosVegetaisProps from './OleosVegetaisProps'
 
 function OleosVegetais(){
+    useEffect(() => {
+        document.title = "Oleos Vegetais - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function OleosVegetais(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Óleos Vegetais</li>
                 </ul>
             </nav>
             <OleosVegetaisProps/>

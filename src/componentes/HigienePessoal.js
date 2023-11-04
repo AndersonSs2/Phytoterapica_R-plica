@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import Style from '../CSS/HigienePessoal.module.css'
 import HigienePessoalProps from './HigienePessoalProps'
 
 function HigienePessoal(){
+    useEffect(() => {
+        document.title = "Higiene Pessoal - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function HigienePessoal(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Higiene Pessoal</li>
                 </ul>
             </nav>
             <HigienePessoalProps/>

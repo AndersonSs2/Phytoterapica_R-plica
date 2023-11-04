@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import Style from '../CSS/Acessorios.module.css'
 import AcessoriosProps from './AcessoriosProps'
 
 function Acessorios(){
+    useEffect(() => {
+        document.title = "Acessórios - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function Acessorios(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Acessorios</li>
                 </ul>
             </nav>
             <AcessoriosProps/>

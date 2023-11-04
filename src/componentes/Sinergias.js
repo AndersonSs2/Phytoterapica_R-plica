@@ -1,7 +1,11 @@
+import { useEffect } from 'react'
 import Style from '../CSS/Sinergias.module.css'
 import ComponenteProps from './SinergiasProps'
 
 function Sinergias(){
+    useEffect(() => {
+        document.title = "Sinergias - Phytoterapica";
+      }, []);
     return(
         <main>
             <section className={Style.resumolink}>
@@ -11,7 +15,7 @@ function Sinergias(){
             <nav className={Style.linkabxres}>
                 <ul>
                     <li className={Style.homeabxtit}>Home</li>
-                    <li className={Style.componto}>Óleos Essenciais</li>
+                    <li className={Style.componto}>Sinergias</li>
                 </ul>
             </nav>
             <ComponenteProps/>
